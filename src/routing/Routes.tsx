@@ -12,7 +12,7 @@ import {MasterLayout} from '../../_metronic/layout/MasterLayout'
 import {PrivateRoutes} from './PrivateRoutes'
 import {Logout, AuthPage} from '../modules/auth'
 import {ErrorsPage} from '../modules/errors/ErrorsPage'
-import {RootState} from '../../setup'
+import {RootState} from '../..'
 import {MasterInit} from '../../_metronic/layout/MasterInit'
 
 const Routes: FC = () => {

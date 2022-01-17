@@ -1,10 +1,10 @@
 import React, {Suspense, lazy} from 'react'
 import {Redirect, Route, Switch} from 'react-router-dom'
 import {FallbackView} from '../../_metronic/partials'
-import {DashboardWrapper} from '../pages/dashboard/DashboardWrapper'
-import {BenchmarkWrapper} from '../pages/benchmark/BenchmarkWrapper'
-import {MessageWrapper} from '../pages/message/MessageWrapper'
-import {ScheduleWrapper} from '../pages/schedule/ScheduleWrapper'
+import {DashboardWrapper} from '../../pages/dashboard/DashboardWrapper'
+import {BenchmarkWrapper} from '../../pages/benchmark/BenchmarkWrapper'
+import {MessageWrapper} from '../../pages/message/MessageWrapper'
+import {ScheduleWrapper} from '../../pages/schedule/ScheduleWrapper'
 import {Module} from '../resources/modules/module'
 
 export function PrivateRoutes() {

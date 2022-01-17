@@ -3,7 +3,7 @@ import {shallowEqual, useSelector, connect, useDispatch, ConnectedProps} from 'r
 import {LayoutSplashScreen} from '../../../../_metronic/layout/core'
 import * as auth from './AuthRedux'
 import {getUserByToken} from './AuthCRUD'
-import {RootState} from '../../../../setup'
+import {RootState} from '../../../..'
 
 const mapState = (state: RootState) => ({auth: state.auth})
 const connector = connect(mapState, auth.actions)
